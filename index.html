@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>MoMSME | Vibrant Gateway</title>
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css' rel='stylesheet'>
+    <style>
+        body {
+            background: linear-gradient(120deg, #fceabb 0%, #f8b500 100%);
+            font-family: 'Montserrat', sans-serif;
+            color: #222;
+            margin: 0; padding: 0;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 1250px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* HEADER */
+        .header {
+            background: linear-gradient(90deg, #fcb800 70%, #ff0084 100%);
+            color: white;
+            text-align: center;
+            padding: 70px 0 30px 0;
+            border-bottom-left-radius: 60px 30px;
+            border-bottom-right-radius: 60px 30px;
+            position: relative;
+            box-shadow: 0 12px 40px 0 #ffefd3bb;
+        }
+        .header h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            text-shadow: 0 4px 18px #fff1bcaa;
+        }
+        .header .subtitle {
+            font-size: 1.35rem;
+            margin: 18px 0 16px;
+            font-weight: 500;
+        }
+        /* PDF Banner */
+        .pdf-banner {
+            margin-top: -60px;
+            background: white;
+            box-shadow: 0 10px 32px #ecc56b44;
+            border-radius: 20px;
+            padding: 36px 28px 26px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        .pdf-banner h2 {
+            font-size: 2rem;
+            color: #fa8919;
+            font-weight: 800;
+        }
+        .pdf-banner h3 {
+            color: #b94600;
+            margin: 0 0 14px;
+        }
+        .pdf-banner .sectags { color: #c86613; font-size: 1.12rem; margin-top: 13px; }
+        /* THREE COLUMNS */
+        .main-features {
+            display: flex;
+            gap: 30px;
+            margin: 60px 0 35px 0;
+            flex-wrap: wrap;
+        }
+        .main-col {
+            flex: 1 1 300px;
+            min-width: 320px;
+            background: #fffbea;
+            border-radius: 18px;
+            padding: 34px 28px 22px 28px;
+            box-shadow: 0 6px 32px #fceabb55;
+            position: relative;
+        }
+        .main-col h3 {
+            color: #af7403;
+            font-size: 1.45rem;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+        .sec-list {
+            margin: 13px 0 0; padding: 0;
+            display: flex; flex-wrap: wrap; gap: 8px;
+        }
+        .sec-tag {
+            background: #ffefa6;
+            color: #f58025;
+            border-radius: 6px;
+            padding: 6px 13px;
+            font-weight: 600;
+            font-size: 1.01rem;
+        }
+        /* CONTACT & SUCCESS METRICS */
+        .split-row {
+            display: flex; gap: 30px;
+            margin-top: 38px;
+            flex-wrap: wrap;
+        }
+        .contact-card, .success-card {
+            background: #fffae6;
+            border-radius: 16px;
+            padding: 30px 26px;
+            box-shadow: 0 2px 14px #f5d98044;
+            flex: 1 1 350px;
+            min-width: 290px;
+        }
+        .contact-card h4 { margin: 0 0 16px; color: #e47200; }
+        /* DIGITAL / CTA BAR */
+        .sticky-bar {
+            position: sticky;
+            bottom: 0;
+            left: 0; right: 0;
+            width: 100%;
+            z-index: 99;
+            padding: 18px 7vw 18px 7vw;
+            background: linear-gradient(90deg, #fee963 0%, #ff7a7a 100%);
+            display: flex; gap: 16px; justify-content: center; align-items: center;
+            box-shadow: 0 -4px 22px #dededebb;
+        }
+        .sticky-bar a {
+            background: #fff9e8;
+            color: #b94600;
+            padding: 15px 35px;
+            font-weight: 700;
+            border-radius: 30px;
+            font-size: 1.07rem;
+            text-decoration: none;
+            margin: 0 4px;
+            border: none; outline: none;
+            box-shadow: 0 6px 24px #f8b50022;
+            transition: background 0.18s, color 0.18s;
+        }
+        .sticky-bar a:hover {
+            background: #fbbf24;
+            color: #fff;
+        }
+        @media (max-width: 920px) {
+            .main-features, .split-row { flex-direction: column; gap: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class='header'>
+        <div class='container'>
+            <h1>MSME: Catalyst for Global Growth</h1>
+            <div class='subtitle'>From Local Roots to Global Reach | Empowering MSMEs through Global Partnerships</div>
+        </div>
+    </div>
+    <div class='container'>
+        <div class='pdf-banner'>
+            <h2>60 Million+ Registered MSMEs</h2>
+            <div><strong>~31% GDP | ~35% Manufacturing Output | ~45% Export | ~260 Million Employed</strong></div>
+            <h3>Explore Opportunities of Investment & Trade</h3>
+            <div class='sectags'>Pharmaceuticals, Textiles, Auto Components, IT & ITeS, Healthcare, Leather, Gems & Jewellery, Engineering Goods, Food Processing, Nutraceuticals, Telecommunication, Tourism, Fintech</div>
+        </div>
+        <!-- Main columns -->
+        <div class='main-features'>
+            <div class='main-col'>
+                <h3><i class='fas fa-chart-line'></i> Trade & Investment</h3>
+                <div>Key sectors: Pharmaceuticals, Auto, IT/ITeS, Healthcare, Leather, Engineering, Food Processing.</div>
+                <div class='sec-list'>
+                    <span class='sec-tag'>Export growth</span> <span class='sec-tag'>Manufacturing hub</span> <span class='sec-tag'>Tech partnerships</span>
+                </div>
+            </div>
+            <div class='main-col'>
+                <h3><i class='fas fa-network-wired'></i> Supply Chain</h3>
+                <div>Connect to a robust supply base and seamless backward integration in emerging and traditional sectors.</div>
+                <div class='sec-list'>
+                    <span class='sec-tag'>Materials</span> <span class='sec-tag'>Components</span> <span class='sec-tag'>Logistics</span>
+                </div>
+            </div>
+            <div class='main-col'>
+                <h3><i class='fas fa-hand-holding-usd'></i> Government Support</h3>
+                <div>Single-window facilitation, 100% FDI policy, favorable incentives, strong policy ecosystem for global partners.</div>
+                <div class='sec-list'>
+                    <span class='sec-tag'>FDI</span> <span class='sec-tag'>Schemes</span> <span class='sec-tag'>Ease of doing business</span>
+                </div>
+            </div>
+        </div>
+        <div class='split-row'>
+            <div class='contact-card'>
+                <h4>Connect with Us</h4>
+                <div><b>Ministry HQ:</b> Kartavya Bhawan, Kartaya Path, New Delhi - 110011<br>
+                <b>Phone:</b> 011-23063288<br> <b>Email:</b> icdivision@nsic.co.in<br>
+                <b>Int'l Cooperation (NSIC):</b> 011-26926275
+                </div>
+            </div>
+            <div class='success-card'>
+                <h4>Success Metrics & International Presence</h4>
+                <div>
+                    <b>45%+ Export Share</b> (2024-25)<br>
+                    <b>260M Employment</b><br>
+                    <b>Key events:</b> Hannover Messe, B2B Fairs, Global Expos
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='sticky-bar'>
+        <a href='#register'><i class='fas fa-rocket'></i> Register Interest</a>
+        <a href='#guide'><i class='fas fa-download'></i> Investment Guide</a>
+        <a href='#consult'><i class='fas fa-calendar-check'></i> Book Consultation</a>
+        <a href='#events'><i class='fas fa-users'></i> Trade Fairs</a>
+    </div>
+</body>
+</html>
